@@ -1,37 +1,67 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+
+using System;
+using System.Collections;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+using ForecastApp.Repositories;
 using ForecastApp.Models;
+using ForecastApp.Models.OpenWeatherMap;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ForecastApp.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IForecastRepository _forecastRepository;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IForecastRepository forecastAppRepo)
         {
-            _logger = logger;
+            _forecastRepository = forecastAppRepo;
         }
 
-        public IActionResult Index()
+        // GET: ForecastApp/SearchCity
+        public IActionResult SearchCity()
         {
-            return View();
+            var viewModel = new SearchCity();
+
+            return View(viewModel);
         }
 
-        public IActionResult Privacy()
+        // POST: ForecastApp/SearchCity
+        [HttpPost]
+        public IActionResult SearchCity(SearchCity model)
         {
-            return View();
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("Index", "Home", new { city = model.CityName });
+            }
+            else
+            {
+                return View(model);
+            }
+
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        // GET: ForecastApp/City
+        public IActionResult Index(string city)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            WeatherResponse weatherResponse = _forecastRepository.GetForecast(city);
+            City viewModel = new City();
+
+            Console.WriteLine(weatherResponse);
+            if (weatherResponse != null)
+            {
+                viewModel.Name = weatherResponse.Name;
+                viewModel.Humidity = weatherResponse.Main.Humidity;
+                viewModel.Pressure = weatherResponse.Main.Pressure;
+                viewModel.Temp = weatherResponse.Main.Temp;
+                viewModel.Weather= weatherResponse.Weather[0].Main;
+                viewModel.Wind= weatherResponse.Wind.Speed;
+            }
+            return View(viewModel);
         }
+
     }
+
 }

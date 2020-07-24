@@ -67,9 +67,7 @@ C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netco
 C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netcoreapp3.1\ForecastApp.TagHelpers.input.cache
 C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netcoreapp3.1\ForecastApp.TagHelpers.output.cache
 C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netcoreapp3.1\ForecastApp.RazorCoreGenerate.cache
-C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netcoreapp3.1\Razor\Views\ForecastApp\SearchCity.cshtml.g.cs
 C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -84,4 +82,4 @@ C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netco
 C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netcoreapp3.1\ForecastApp.dll
 C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netcoreapp3.1\ForecastApp.pdb
 C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netcoreapp3.1\ForecastApp.genruntimeconfig.cache
-C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netcoreapp3.1\Razor\Views\ForecastApp\City.cshtml.g.cs
+C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\SearchCity.cshtml.g.cs
