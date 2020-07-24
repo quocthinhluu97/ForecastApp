@@ -1,5 +1,7 @@
 <div align="center">
 
+# ForecastApp
+
 ![frontpage](./Images/frontpage_forecastapp.PNG)
 
 </div>
