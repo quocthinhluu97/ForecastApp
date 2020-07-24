@@ -83,3 +83,13 @@ C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netco
 C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netcoreapp3.1\ForecastApp.pdb
 C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netcoreapp3.1\ForecastApp.genruntimeconfig.cache
 C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\SearchCity.cshtml.g.cs
+C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\bin\Debug\netcoreapp3.1\publish\publish\web.config
+C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\bin\Debug\netcoreapp3.1\publish\publish\appsettings.Development.json
+C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\bin\Debug\netcoreapp3.1\publish\publish\appsettings.json
+C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\bin\Debug\netcoreapp3.1\publish\publish\ForecastApp.deps.json
+C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\bin\Debug\netcoreapp3.1\publish\publish\ForecastApp.runtimeconfig.json
+C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\bin\Debug\netcoreapp3.1\publish\publish\publish\web.config
+C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\bin\Debug\netcoreapp3.1\publish\publish\publish\appsettings.Development.json
+C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\bin\Debug\netcoreapp3.1\publish\publish\publish\appsettings.json
+C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\bin\Debug\netcoreapp3.1\publish\publish\publish\ForecastApp.deps.json
+C:\Users\LƯUQUỐCTHỊNH\workspace\ForecastApp\src\ForecastApp\bin\Debug\netcoreapp3.1\publish\publish\publish\ForecastApp.runtimeconfig.json

@@ -17,7 +17,6 @@ namespace ForecastApp.Repositories
 {
     public class ForecastRepository : IForecastRepository
     {
-        private readonly IConfiguration configuration;
         WeatherResponse IForecastRepository.GetForecast(string city)
         {
             string IDOWeather = Constants.OPEN_WEATHER_APPID;

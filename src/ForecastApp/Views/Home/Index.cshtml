@@ -10,28 +10,57 @@
             <h2>Forecast the selected city</h2>
 
             <label asp-for="Name"></label>
-            <span class="badge">@Model.Name</span>
+            <span class="badge badge-success">@Model.Name</span>
             <br/>
 
             <label asp-for="Temp"></label>
-            <span class="badge">@Model.Temp</span>
+            <span class="badge badge-info">@Model.Temp</span>
+            <br/>
+
+            <label asp-for="Feels_Like"></label>
+            <span class="badge badge-info">@Model.Feels_Like</span>
+            <br/>
+
+            <label asp-for="Temp_Max"></label>
+            <span class="badge badge-info">@Model.Temp_Max</span>
+            <br/>
+
+            <label asp-for="Temp_Min"></label>
+            <span class="badge badge-info">@Model.Temp_Min</span>
             <br/>
 
             <label asp-for="Humidity"></label>
-            <span class="badge">@Model.Humidity</span>
+            <span class="badge badge-info">@Model.Humidity</span>
             <br/>
 
             <label asp-for="Pressure"></label>
-            <span class="badge">@Model.Pressure</span>
+            <span class="badge badge-info">@Model.Pressure</span>
             <br/>
 
-            <label asp-for="Wind"></label>
-            <span class="badge">@Model.Wind</span>
+            <label asp-for="Wind_Speed"></label>
+            <span class="badge badge-info">@Model.Wind_Speed</span>
+            <br/>
+
+            <label asp-for="Wind_Degree"></label>
+            <span class="badge badge-info">@Model.Wind_Degree</span>
             <br/>
 
             <label asp-for="Weather"></label>
-            <span class="badge">@Model.Weather</span>
+            <span class="badge badge-info">@Model.Weather</span>
             <br/>
+
+            <label asp-for="Datetime"></label>
+            <span class="badge badge-info">@Model.Datetime</span>
+            <br/>
+
+            <label asp-for="Sunrise"></label>
+            <span class="badge badge-info">@Model.Sunrise</span>
+            <br/>
+
+            <label asp-for="Sunset"></label>
+            <span class="badge badge-info">@Model.Sunset</span>
+            <br/>
+
         </div>
     </div>
 <div class="container">

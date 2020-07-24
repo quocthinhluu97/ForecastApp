@@ -10,8 +10,8 @@ namespace ForecastApp.Models.OpenWeatherMap
     {
         public float Message {get; set;}
         public int Type {get; set;}
-        public int Sunrise {get; set;}
-        public int Sunshine {get; set;}
+        public long Sunrise {get; set;}
+        public long Sunset {get; set;}
         public int Id {get; set;}
         public string Country {get; set;}
 
