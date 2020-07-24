@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "gnhbiQYQRdMxs/cqRt1MoEh6138nSxJU4DV0QI/JHuB4jztp0HGosiRsMmz6DmraQp5P8LRMKYvgqrAVlur5dA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LƯUQUỐCTHỊNH\\workspace\\ForecastApp\\src\\ForecastApp\\ForecastApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LƯUQUỐCTHỊNH\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\LƯUQUỐCTHỊNH\\.nuget\\packages\\restsharp\\106.11.4\\restsharp.106.11.4.nupkg.sha512"
+  ],
+  "logs": []
+}
